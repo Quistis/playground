@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
-    <title>Седона</title>
+    <title>Tinyone</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="preload" href="fonts/ptsans.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/ptsansbold.woff2" as="font" crossorigin="anonymous">
@@ -11,7 +11,126 @@
   </head>
 
   <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Logo</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Features</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Support</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="visually-hidden">Tinyone app</h1>
+    </header>
 
+    <main class="page-main">
+      <section class="app-showcase">
+        <div class="app-showcase__advantages advantages">
+            <h2 class="advantages__title">Inspire your inspiration</h2>
+          <p class="advantages__description">Simple to use for your app, products showcase and your inspiration</p>
+          <p class="advantages__additional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+          <div class="advantages__platforms">
+            <a class="advantages__platform-icon advantages__platform-icon--mac"></a>
+            <a class="advantages__platform-icon advantages__platform-icon--android"></a>
+            <a class="advantages__platform-icon advantages__platform-icon--win"></a>
+          </div>
+          <div class="app-showcase__exhibit exhibit">
+            <img><!--Вставлю потом картинки или еще чего,хз пока как делать--></img>
+          </div>
+          <div class="app-showcase__slider-controls slider-controls">
+            <i class="slider-controls__item slider-controls__item--active"></i>
+            <i class="slider-controls__item"></i>
+            <i class="slider-controls__item"></i>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <h2 class="features__title">Tinyone features</h2>
+        <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        <ul class="features__list feature-list">
+          <li class="feature-list__item feature-list__item--fully-responsive">
+            <h3 class="feature-list__title">Fully Responsive</h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+          <li class="feature-list__item feature-list__item--psd">
+            <h3 class="feature-list__title">Fully Layered PSD</h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+          <li class="feature-list__item feature-list__item--font-awesome-icons">
+            <h3 class="feature-list__title">Font Awesome Icons</h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+          <li class="feature-list__item feature-list__item--html-css">
+            <h3 class="feature-list__title">HTML3 & CSS3 </h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+          <li class="feature-list__item feature-list__item--email">
+            <h3 class="feature-list__title">Email Template</h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+          <li class="feature-list__item feature-list__item--free-download">
+            <h3 class="feature-list__title">Free to download</h3>
+            <p feature-list__description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
+    <footer class="page-footer">
+      <h2 class="page-footer__title">Keep in touch with us</h2>
+      <p class="page-footer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+      <form class="newsletter-form" method="get" action="https://echo.htmlacademy.ru">
+        <div class="newsletter-form__wrapper">
+          <input class="newsletter-form__email" type="email" name="email" placeholder="Enter your email to update">
+          <button class="newsletter-form__button" type="submit">Submit</button>
+        </div>
+      </form>
+      <div class="page-footer__social-links social-links">
+        <a class="social-links__item social-links__item--facebook"></a>
+        <a class="social-links__item social-links__item--twitter"></a>
+        <a class="social-links__item social-links__item--google"></a>
+        <a class="social-links__item social-links__item--pinintrest"></a>
+      </div>
+      <div class="page-footer__menu footer-menu">
+        <div class="footer-menu__contact-info contact-info">
+          <p class="contact-info__contacts">
+            HALOVIETNAM LTD
+            66, Dang Van ngu, Dong Da
+            Hanoi, Vietnam
+          </p>
+          <a class="contact-info__email" href = "mailto: contact@halovietnam.com">contact@halovietnam.com</a>
+          <a class="contact-info__tel-link" href="tel:+84435149182">+844 35149182</a>
+        </div>
+        <div class="footer-menu__shop-and-license shop-and-license">
+          <a class="shop-and-license__item" href="#">Examples</a>
+          <a class="shop-and-license__item" href="#">Shop</a>
+          <a class="shop-and-license__item" href="#">License</a>
+        </div>
+        <div class="footer-menu__about-us about-us">
+          <a class="about-us__item" href="#">Contact</a>
+          <a class="about-us__item" href="#">About</a>
+          <a class="about-us__item" href="#">Privacy</a>
+          <a class="about-us__item" href="#">Terms</a>
+        </div>
+        <div class="footer-menu__support-list support-list">
+          <a class="support-list__item" href="">Download</a>
+          <a class="support-list__item" href="">Support</a>
+          <a class="support-list__item" href="">Documents</a>
+        </div>
+        <div class="footer-menu__media-list media-list">
+          <a class="media-list__item" href="#">Media</a>
+          <a class="media-list__item" href="#">Blog</a>
+          <a class="media-list__item" href="#">Forums</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
